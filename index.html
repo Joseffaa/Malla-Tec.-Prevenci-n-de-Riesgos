@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Técnico en Prevención de Riesgos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f3f3f3;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #444;
+    }
+    .semestre {
+      background: #fff;
+      padding: 15px;
+      margin: 10px auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 900px;
+    }
+    .semestre h2 {
+      color: #2c3e50;
+      border-bottom: 1px solid #ccc;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 8px;
+      padding: 8px;
+      background: #eef;
+      border-left: 4px solid #2c3e50;
+      border-radius: 4px;
+    }
+    .prereq {
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>Malla Técnico en Prevención de Riesgos</h1>
+
+  <div class="semestre">
+    <h2>1° Semestre</h2>
+    <ul>
+      <li>Formación Ciudadana (FGFC03)</li>
+      <li>Taller de Agentes Físicos (MPD301)</li>
+      <li>Taller de Agentes Químicos y Biológicos (MPD302)</li>
+      <li>Introducción a la Prevención de Riesgos (MPH301)</li>
+      <li>Taller de Legislación (MPH303) <br><span class="prereq">→ Abre Taller de Seguridad Industrial (2° Semestre)</span></li>
+      <li>Resolución de Problemas en Álgebra (MTAE02) <br><span class="prereq">→ Abre Funciones y Geometría (2° Semestre)</span></li>
+    </ul>
+  </div>
+
+  <div class="semestre">
+    <h2>2° Semestre</h2>
+    <ul>
+      <li>Administración (ATA01)</li>
+      <li>Complementos de Higiene (MPD303)</li>
+      <li>Taller de Seguridad Industrial (MPD304) <br><span class="prereq">← Requiere Taller de Legislación<br>→ Abre Proyecto Integrado (4° Semestre)</span></li>
+      <li>Herramientas Digitales para la Prevención (MPH302)</li>
+      <li>Materiales Peligrosos (MPH401) <br><span class="prereq">→ Abre Emergencias en Ambientes de Trabajo (3° Semestre)</span></li>
+      <li>Funciones y Geometría (MTF001) <br><span class="prereq">← Requiere Resolución de Problemas</span></li>
+    </ul>
+  </div>
+
+  <div class="semestre">
+    <h2>3° Semestre</h2>
+    <ul>
+      <li>Innovación y Emprendimiento I (FGIE01)</li>
+      <li>Emergencias en Ambientes de Trabajo (MPA401) <br><span class="prereq">← Requiere Materiales Peligrosos</span></li>
+      <li>Manejo de Crisis I (MPA402)</li>
+      <li>Gestión de la Emergencia (MPA403) <br><span class="prereq">→ Abre Proyecto Integrado (4° Semestre)</span></li>
+      <li>Interpretación de Planos (MPB401) <br><span class="prereq">→ Abre Planificación de la Prevención (4° Semestre)</span></li>
+      <li>Electivo de Tendencias del Sector I (MP4101)</li>
+    </ul>
+  </div>
+
+  <div class="semestre">
+    <h2>4° Semestre</h2>
+    <ul>
+      <li>Inglés Inicial (FGE501)</li>
+      <li>Planificación de la Prevención (MPC401) <br><span class="prereq">← Requiere Interpretación de Planos</span></li>
+      <li>Técnicas de la Prevención (MPC402)</li>
+      <li>Gestión en Seguridad y Salud en el Trabajo (MPC403)</li>
+      <li>Proyecto Integrado (MPH400) <br><span class="prereq">← Requiere Taller de Seguridad Industrial y Gestión de la Emergencia</span></li>
+      <li>Electivo de Tendencias del Sector II (MP4102)</li>
+    </ul>
+  </div>
+</body>
+</html>
